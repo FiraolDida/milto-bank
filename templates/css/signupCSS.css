@@ -1,0 +1,95 @@
+body
+{
+	background-image: linear-gradient(to right, #ff5722, #ff9800 50%);
+	margin-top: 150px !important;
+}
+
+.register-left
+{
+	text-align: center;
+	color: #fff;
+	padding: 30px;
+}
+
+.register-left p 
+{
+	padding: 20px 20px 0;
+}
+
+.register-left .btn-primary
+{
+	border-radius: 1.5rem;
+	border: none;
+	width: 120px;
+	background: #f8f8f8;
+	font-weight: 600;
+	color: #555;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.register-left .btn-primary:hover
+{
+	background: #000;
+}
+
+.register-right
+{
+	border: none;
+	background: #f8f8f8;
+	border-top-left-radius: 60% 50%;
+	border-bottom-left-radius: 0% 50%;
+	padding: 50px;
+	padding-left: 50px !important;
+	position: fixed !important;
+	right: 150px;
+	max-width: 500px !important;
+	box-shadow: 0px 0px 13px -4px black;
+}
+
+.register-right::after {
+	content: "$";
+	display: block;
+	width: 150px;
+	height: 169px;
+	/* border: 2px solid lime; */
+	position: absolute;
+	border-radius: 50%;
+	top: -50px;
+	right: -50px;
+	background: #ff9800;
+	font-size: 80px;
+	text-align: center;
+	color: #f8f8f8;
+	display: flex;
+	align-items: center;
+	padding: 50px !important;
+	font-weight: bold;
+	text-shadow: 2px 2px #8c8c8c;
+}
+
+.register-right h2
+{
+	text-align: center;
+	margin-bottom: 10px;
+	color: #555;
+}
+
+.register-form 
+{
+	padding: 30px;
+
+}
+
+.register-right .btn-primary
+{
+	float: right;
+	border-radius: 1.5rem;
+	border: none;
+	width: 120px;
+	background: #ff9800;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 20px;
+	padding: 10px;
+}

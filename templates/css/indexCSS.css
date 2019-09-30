@@ -1,0 +1,30 @@
+#navbar {
+    background-image: linear-gradient(to right, #ff5722, #ff9800 50%);
+}
+#navbar .btn {
+    border:0px solid transparent;
+}
+#navbar .btn-default.focus, #navbar .btn-default:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+#navbar li.nav-item a {
+    font-weight:700;
+    color:#333;
+}
+#navbar li.nav-item a:hover {
+    color:#fff;
+}
+#navbar a.dropdown-item {
+    font-weight:400 !important;
+}
+#navbar button.dropdown-toggle-split {
+    background-color:transparent;
+}
+#navbar button.dropdown-toggle-split:hover {
+    color:#fff;
+}
+#navbar button.dropdown-toggle-split:active {
+    outline:none;
+}
+

@@ -1,0 +1,51 @@
+{{template "index"}}
+<div class="container">
+    <div class="card card-1 col-md-10 text-md-center" id="card1">
+        <div class="m-3 form-parent">
+            <form class="form-inline" role="form" method="POST">
+                <div class="form-group mb-2">
+                    <label for="account" class="sr-only">Account Number</label>
+                    <input
+                            type="number"
+                            class="form-control"
+                            name="account"
+                            {{range .}}
+                            value={{.AccountNumber}}
+                            {{end}}
+                            readonly
+                    />
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="amount" class="sr-only">Amount</label>
+                    <input
+                            type="number"
+                            class="form-control"
+                            name="amount"
+                            placeholder="Amount"
+                    />
+                </div>
+                <button type="submit" class="btn btn-primary mb-2">Deposit</button>
+            </form>
+        </div>
+
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Date</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{range .}}
+            <tr>
+                <th scope="row">1</th>
+                <td>{{.Amount}}</td>
+                <td>{{.Date}}</td>
+            </tr>
+            {{end}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
