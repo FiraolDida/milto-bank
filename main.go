@@ -1,8 +1,8 @@
 package main
 
 import (
-	"google.com/BankOfFiraol/API"
-	"google.com/BankOfFiraol/Controller"
+	"google.com/milto-bank/API"
+	"google.com/milto-bank/Controller"
 	"net/http"
 )
 

@@ -2,8 +2,8 @@ package Controller
 
 import (
 	"fmt"
-	"google.com/BankOfFiraol/Database"
-	"google.com/BankOfFiraol/Model"
+	"google.com/milto-bank/Database"
+	"google.com/milto-bank/Model"
 	"html/template"
 	"log"
 	"net/http"

@@ -3,7 +3,7 @@ package Database
 import (
 	"database/sql"
 	"fmt"
-	"google.com/BankOfFiraol/Model"
+	"google.com/milto-bank/Model"
 	"time"
 )
 
